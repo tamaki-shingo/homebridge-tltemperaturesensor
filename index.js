@@ -55,9 +55,9 @@ TemperatureSensorAccessory.prototype = {
     // サービスのキャラクタリスティック設定
     // var informationService = new Service.AccessoryInformation()
     // informationService
-    //   .setCharacteristic(Characteristic.Manufacturer, 'cmd Manufacturer')
-    //   .setCharacteristic(Characteristic.Model, 'cmd Model')
-    //   .setCharacteristic(Characteristic.SerialNumber, 'cmd Serial Number')
+    //   .setCharacteristic(Characteristic.Manufacturer, 'Things Like Manufacturer')
+    //   .setCharacteristic(Characteristic.Model, 'Things Like Model')
+    //   .setCharacteristic(Characteristic.SerialNumber, 'Things Like Serial Number')
 
     var temperatureSensorService = new Service.TemperatureSensor(this.name)
 
