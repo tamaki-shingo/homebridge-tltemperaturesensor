@@ -15,7 +15,9 @@
             "accessory": "TLTemperatureSensor",
             "name": "温度計",
             "url": "", // Your Temperature Sensor API
-            "method": "GET"
+            "method": "GET",
+            "timeout": 10000,
+            "polling schedule": "*/1 * * * *"
         }
     ]
 }
