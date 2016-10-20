@@ -16,6 +16,7 @@
   "author": "Shingo Tamaki",
   "license": "MIT",
   "dependencies": {
+    "node-schedule": "^1.2.0",
     "request": "^2.75.0"
   }
 }
